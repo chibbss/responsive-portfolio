@@ -1,6 +1,9 @@
 # Emmanuel Ochiba Portfolio
+![Screenshot](Screenshot%202023-09-19%20at%2009.47.11.png)
 
-![Emmanuel Ochiba Portfolio](img/screenshot.png)
+![Screenshot](Screenshot%202023-09-19%20at%2009.47.27.png)
+
+
 
 ## Table of Contents
 
