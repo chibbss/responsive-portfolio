@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'> 
+
+      <!--=============== REMIXICONS ===============-->
+      <script src="https://kit.fontawesome.com/f190cd0139.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="styles.css">
+
+      <title>Emmanuel Ochiba</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-circle">C</span>
+                <span class="nav__logo-name">chibs.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <span class="nav__title">Menu</span>
+
+                <h3 class="nav__name">Chibs</h3>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- theme button -->
+                <i class="ri-moon-line change-theme" id='theme-button'></i>
+
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-5-line"></i>
+                </div>
+            </div>
+        </nav>       
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    Emmanuel Ochiba.
+                </h1>
+
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="img/heyarnold.png" alt="image" class="home__img">
+                        <div class="home__shadow"></div>
+
+                        <img src="img/curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="img/random-lines.svg" alt="" class="home__line">
+
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/chibbss"  target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href=""  target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i> 
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/emmanuel-ochiba/"  target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>Accomplished Python Developer</b>, adept in web development and ML/AI. 
+                        Skilled in training Large Language Models, also venturing into mastering 
+                        JavaScript to elevate web interactivity and design.
+                    </p>
+
+                    <a href="about" class="home__scroll">
+                        <a href='#' class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </a>
+
+                        
+                    </a>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container grid">
+                <h2 class="section__title-1">
+                    
+                    <span>Who's chibs?</span>
+                </h2>
+
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="img/heyarnold.png" alt="image" class="about__img">
+
+                        <div class="about__shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="img/random-lines.svg" alt="" class="about__Line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        <b>Coding enthusiast and Python aficionado,</b> <br>
+                        I blend <b>web development with machine learning expertise.</b> <br>
+                        From crafting dynamic Django projects to mastering the intricacies of generative AI and fine-tuning Large Language Models, I am on a journey to enhance interactivity and design.
+                        Join me as I delve into the world of technology and creativity.
+                    </p>
+
+                
+                    <div class="about__skills">
+                        <h2 class="about__skills-title">My Skills</h2>
+                        <div class="about__skills-carousel">
+                            <div class="about__skills-list">
+                                <span class="about__skills-item">Python</span>
+                                <span class="about__skills-item">HTML</span>
+                                <span class="about__skills-item">CSS</span>
+                                <span class="about__skills-item">Web Development (Django)</span>
+                                <span class="about__skills-item">Machine Learning</span>
+                                <span class="about__skills-item">Generative AI</span>
+                                <span class="about__skills-item">Data Analysis & Visualization</span>
+                                <span class="about__skills-item">JavaScript (in progress)</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"></i> Contact me
+                        </a>
+                
+                        <a href="#" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title-2">
+                <span>What I do.</span>
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-layout-4-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Web Design</h2>
+
+                        <p class="services__description">
+                            Beautiful and elegant designs and layouts
+                            that are intuitive, efficient and pleasant for the 
+                            user.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-code-box-line"></i>
+                            
+
+                        </div>
+
+                        <h2 class="services__title">Code Solutions</h2>
+
+                        <p class="services__description">
+                           Crafting streamlined and impeccable code solutions that transcend
+                           complexity, ensuring reliability and maintanability. 
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-ai-generate"></i>
+
+                        </div>
+
+                        <h2 class="services__title">ML/AI Pioneer</h2>
+
+                        <p class="services__description">
+                            Pioneering the future with cutting-edge Machine Learning and Artificial Intelligence solutions, 
+                            transforming data into actionable insights that drive informed decisions and innovation by
+                            harnessing the power of Machine Learning and AI to sculpt data into predictive intelligence and 
+                            actionable business strategies.
+                        </p>
+                    </div>
+                </article>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Recent Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-1.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">website collection.</h3>
+                        <h2 class="projects__title">Web Development</h2>
+
+                        <p class="projects__description">
+                            Go through a collection of landing pages designed by yours truly.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/chibbss" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+
+                        <a href="https://www.kaggle.com/chibss" target="_blank" class="projects__link">
+                            <i class="ri-skip-left-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-2.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">ai app</h3>
+                        <h2 class="projects__title">fit.ai</h2>
+
+                        <p class="projects__description">
+                            innovative health and wellness companion powered by AI, guiding individuals towards better fitness, nutrition, and overall well-being.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/chibbss" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+
+                        <a href="https://www.kaggle.com/chibss" target="_blank" class="projects__link">
+                            <i class="ri-skip-left-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-3.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Coding Solutions</h3>
+                        <h2 class="projects__title">ML | AI | Python</h2>
+
+                        <p class="projects__description">
+                            From discord bots to ML workflows, a collection of my code solutions and projects.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/chibbss" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> View
+                        </a>
+
+                        <a href="https://www.kaggle.com/chibss" target="_blank" class="projects__link">
+                            <i class="ri-skip-left-line"></i> View
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Get at me.</span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        Want to work? Let's get to it. I'll reply.
+                    </p>
+
+                    <p class="contact__description-2">
+                        I need your <b>Name</b> and <b>Email Address</b>
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send me a message.
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name='user_name' class="contact__input" id="name" required placeholder="First Name">
+                                <label for="name" class="contact__label">First Name</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name='user_email' class="contact__input" id="email" required placeholder="Email Address">
+                                <label for="email" class="contact__label">Email Address</label>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="text" name='user_subject' class="contact__input" id="subject" required placeholder="Subject">
+                            <label for="subject" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user__message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <!-- <p class="contact__message" id="contact-message">Message sent successfully !</p> -->
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-mail-send-line"></i> Send it!
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                does not send emails.
+                            </p>
+
+                            <p class="contact__social-description-1">
+                                get at me on my socials.                          
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="" target="_blank" class="contact__social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__contaier container grid">
+            <ul class="footer__links">
+                <li><a href="#about" class="footer__link">About</a></li>
+
+                <li><a href="#services" class="footer__link">Services</a></li>
+
+                <li><a href="#projects" class="footer__link">Projects</a></li>
+            </ul>
+
+            <span class="footer__copy">
+                All Rights Reserved By <br>
+                emmanuelochiba7@gmail.com
+            </span>
+        </div>
+         
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
